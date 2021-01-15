@@ -29,6 +29,9 @@
 
 ## Manual (Desktop version CLI)
 
+###Heroku
+Using `Heroku Local <https://devcenter.heroku.com/articles/heroku-local#run-your-app-locally-using-the-heroku-local-command-line-tool>`__ (preferred)
+
 ```
 ./main.py [argument][value] - startup with arguments
 
