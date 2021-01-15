@@ -1,7 +1,7 @@
 {
   "name": "Music Bot",
   "description": "Telegram Müzik Botu",
-  "repository": "https://github.com/iibrahim/MusicBot",
+  "repository": "https://github.com/iibrahim/MusicBot.git",
   "logo": "https://imgyukle.com/i/HkLThb.jpg",
   "keywords": [
     "python",
@@ -86,19 +86,18 @@
     "USE_WEBHOOK": {
       "description": "Use webhook for bot updates: 1, use polling (default): 0",
       "value": "0",
-      "required": false
+      "required": false   
     },
-    "APP_URL": {
-      "description": "Your host URL like https://scdlbot.herokuapp.com/, required for webhook mode",
-      "required": false
-    }
-  },
   "formation": {
     "web": {
       "quantity": 0
     },
     "worker": {
       "quantity": 1
+    },
+    "DeezerMusic"
+    "Apı ID"{
+    "required" true
     }
-  }
+  }  
 }
